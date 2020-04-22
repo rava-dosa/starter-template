@@ -6,7 +6,7 @@ import os
 # app = Flask(__name__, static_url_path='/home/user/nlproject/web')
 template_dir = os.path.abspath('../frontend/dist')
 print(template_dir)
-app = Flask(__name__, static_url_path='/home/user/miti-dashboard/frontend/dist',template_folder=template_dir)
+app = Flask(__name__,static_url_path='',static_folder=template_dir,template_folder=template_dir)
 @app.route('/')
 def root():
     print("aayame")
