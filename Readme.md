@@ -1,3 +1,7 @@
+# Intentions
+
+Intended for hackathons and mvp. You can easily start from here. Almost no config required. You can also start from here to learn javascript and it's whole community. React part is borrowed from [here](https://github.com/rwieruch/minimal-react-webpack-babel-setup). So yeah code the fuck out.
+
 ## Steps to Run
 
 
@@ -12,7 +16,7 @@
     2. One reason could be your new js couldn't compile. Soln:- Edit and Recompile
     3. You have closed js hot reload process aka "npm run prod". Soln :- Run the command again
     4. You browser is not loading new js. Soln :- ctrl+shift+r
-
+6. Browse http://127.0.0.1:5000/ 
 
 ### First Time
 
